@@ -8,7 +8,7 @@ public class FibSeriesWithRecursion {
         obj.fib(10);
     }
     void fib(int i){
-        if(i>1){
+        if(i>=1){
             c = a+b;
             System.out.print(" " +c);
             a = b;
