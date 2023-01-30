@@ -3,8 +3,8 @@ package practice;
 public class ReverseString {
     public static void main(String[] args) {
         String str = "Java concept", rstr = "";
-        for (int i=str.length()-1; i>=0; i--){
-            rstr = rstr+str.charAt(i);
+        for (int i = 0; i<str.length(); i++){
+            rstr = str.charAt(i) + rstr;
         }
         System.out.println("The original string is " +str);
         System.out.println("The reversed string is " +rstr);

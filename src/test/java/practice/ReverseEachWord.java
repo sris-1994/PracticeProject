@@ -8,8 +8,8 @@ public class ReverseEachWord {
             for (int i =0; i<words.length; i++){
                 String word = words[i];
                 String reverseWord = "";
-                for(int j = word.length()-1; j>=0; j--){
-                        reverseWord = reverseWord + word.charAt(j);
+                for(int j = 0; j<word.length(); j++){
+                        reverseWord = word.charAt(j) + reverseWord;
                 }
                 reverseString = reverseString + reverseWord + " ";
             }
@@ -17,8 +17,8 @@ public class ReverseEachWord {
             System.out.println(reverseString);
 
         }
-
     public static void main(String[] args) {
-        reverWordOfString("Reverse each word of string");
+
+            reverWordOfString("Reverse each word of string");
     }
     }
