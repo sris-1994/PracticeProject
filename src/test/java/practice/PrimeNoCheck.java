@@ -19,6 +19,5 @@ public class PrimeNoCheck {
         else{
             System.out.println("Number is not prime");
         }
-
     }
 }
