@@ -8,7 +8,7 @@ public class PrimeNo1toN {
         System.out.println("Enter a number");
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        System.out.println("Prime numners between 1 to " +n+ " are ");
+        System.out.println("Prime numbers between 1 to " +n+ " are ");
         for(int j = 2; j<=n; j++){
             count = 0;
             for(i = 1; i<=j; i++){

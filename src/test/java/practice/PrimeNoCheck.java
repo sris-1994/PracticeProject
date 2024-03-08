@@ -14,10 +14,10 @@ public class PrimeNoCheck {
             }
         }
         if (count == 2){
-            System.out.println("Number is prime");
+            System.out.println(n+ " Number is prime");
         }
         else{
-            System.out.println("Number is not prime");
+            System.out.println(n+ " Number is not prime");
         }
     }
 }
