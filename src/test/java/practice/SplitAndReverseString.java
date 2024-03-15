@@ -12,10 +12,10 @@ public class SplitAndReverseString {
         System.out.println("Reversed string is "+reversedString);
     }
     public static String reverseString(String string){
-        String reversdedString = "";
+        String reversedString = "";
         for(int i =0; i<string.length();i++){
-            reversdedString = string.charAt(i)+reversdedString;
+            reversedString = string.charAt(i)+reversedString;
         }
-        return reversdedString.toString();
+        return reversedString.toString();
     }
 }
