@@ -11,6 +11,6 @@ public class AddASCIILetters {
         for(int i = 0; i<inputStr.length(); i++){
             sum+= inputStr.charAt(i);
         }
-        System.out.println("The Ascii value sum of " +inputStr+ " is " +sum);
+        System.out.println("The Ascii value sum  of " +inputStr+ " is " +sum);
     }
 }
